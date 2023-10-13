@@ -1,0 +1,31 @@
+setup flask :  
+//on project folder ,terminal 
+
+ py -3 -m venv .venv
+   
+ .venv\Scripts\activate
+
+
+=============================================================================
+PROBLEM :   
+
+.venv\Scripts\activate : File E:\project -davv\test
+folder\.venv\Scripts\Activate.ps1 cannot be loaded because running scripts
+
+command :
+ 
+powershell  :  
+ Set-ExecutionPolicy RemoteSigned   
+****after use  :  
+ Set-ExecutionPolicy Restricted
+ 
+========================================================================
+
++ python -m pip install --upgrade pip 
+ //check for updates . 
+ 
++python -m pip install flask
+ 
+flask --app <file name   "  wtithout    .py >   run  
+  
+=============================================
